@@ -1,5 +1,5 @@
 GET http://localhost:3000/users
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsIm5hbWUiOiJBbGZhcml6aSBIaWRheWFoIiwiZW1haWwiOiJhbGZhcml6aUBnbWFpbC5jb20iLCJpYXQiOjE3MTg3MjkwMTQsImV4cCI6MTcxODcyOTAzNH0.yor2sCZWEzpPdafNI9-_1_CjncyqLMvTYBtkaLGJzEE
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsIm5hbWUiOiJBbGZhcml6aSBIaWRheWFoIiwiZW1haWwiOiJhbGZhcml6aUBnbWFpbC5jb20iLCJpYXQiOjE3MTg4MDc4NjIsImV4cCI6MTcxODgwNzg3N30.m0gSOdjVf2SqNAgvqzizkvFc3F4lKqOgktcdai-n4r0
 
 
 ###
@@ -21,3 +21,9 @@ Content-Type: application/json
     "email": "alfarizi@gmail.com",
     "password": "12345678"
 }
+
+###
+GET http://localhost:3000/token
+
+###
+DELETE http://localhost:3000/logout
