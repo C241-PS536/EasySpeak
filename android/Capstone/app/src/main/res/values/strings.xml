@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Sign Language App</string>
+    <string name="convert_word_to_sign">Convert Word to Sign</string>
+    <string name="convert_sign_to_word">Convert Sign to Word</string>
+    <string name="quiz">Quiz</string>
+    <string name="point_of_objection">Point of Objection</string>
+    <string name="id_easyspeak">Easy Speak</string>
+</resources>

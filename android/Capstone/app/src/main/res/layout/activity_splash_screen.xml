@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- ImageView berada di tengah layar -->
+    <ImageView
+        android:id="@+id/logo_image"
+        android:layout_width="280dp"
+        android:layout_height="277dp"
+        android:src="@drawable/id_easyspeak"
+        android:layout_centerInParent="true" />
+
+    <!-- TextView berada di bawah ImageView dan juga di tengah layar -->
+    <TextView
+        android:id="@+id/text_easy_speak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EasySpeak"
+        android:textSize="50sp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true" />
+</RelativeLayout>

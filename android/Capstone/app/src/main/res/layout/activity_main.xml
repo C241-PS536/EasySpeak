@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="4000dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:background="@android:color/holo_green_light"
+        android:padding="50dp"
+        android:text="Easy Speak"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button_convert_sign_to_word"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:text="Convert Sign to Word"
+        android:layout_below="@id/title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:backgroundTint="@android:color/holo_blue_light"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:layout_marginBottom="20dp"
+        android:onClick="navigateTo"/>
+
+    <Button
+        android:id="@+id/button_quiz"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:text="Quiz"
+        android:layout_below="@id/button_convert_sign_to_word"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@android:color/holo_red_light"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:layout_marginBottom="20dp"
+        android:onClick="navigateTo"/>
+
+</RelativeLayout>
